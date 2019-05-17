@@ -1,4 +1,4 @@
-##TM_Align
+## TM_Align
 Pipeline to run TMalign_pair
 
 The structure is defined as follow:
