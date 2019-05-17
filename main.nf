@@ -2,10 +2,10 @@
 params.name = "TM Align"
 
 // input sequences to align [FASTA]
-params.seqs = "$baseDir/seqs/PF00004.fasta"
+params.seqs = "$baseDir/seqs/*.fasta"
 
 // input reference sequences aligned [Aligned FASTA]
-params.template = "$baseDir/templates/PF00004_ref.template_list2"
+params.template = "$baseDir/templates/*_ref.template_list2"
 
 params.method = "sap_pair TMalign_pair"
 // output directory [DIRECTORY]
